@@ -1,0 +1,10 @@
+# NUNCA subir datos de estudiantes: este repositorio es solo codigo.
+# Se bloquea todo y se permite solo lo necesario.
+*
+!*.py
+!*.md
+!requirements.txt
+!.gitignore
+!LEEME.md
+!.github/
+!.github/**

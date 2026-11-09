@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   mac:
-    runs-on: macos-14   # Mac con chip Apple Silicon (M1 o posterior)
+    runs-on: macos-latest   # Mac con chip Apple Silicon (M1 o posterior)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
